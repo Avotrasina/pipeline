@@ -18,6 +18,21 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <settings>
+  <servers>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>Avotrasina</password>
+    </server>
+    <server>
+      <id>nexus-releases</id>
+      <username>admin</username>
+      <password>Avotrasina</password>
+    </server>
+  </servers>
+</settings>
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
